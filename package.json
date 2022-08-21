@@ -1,6 +1,6 @@
 {
-  "name": "odd.js",
-  "version": "1.0.0",
+  "name": "oddity.js",
+  "version": "1.0.1",
   "description": "A library that helps you genereate random data and lend you a hand with some util functions.",
   "main": "lib/index",
   "typings": "lib/index",

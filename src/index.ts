@@ -16,7 +16,7 @@ export const odd = {
    * @returns A random value between min and max.
    */
   rng: (min: number, max: number): number => {
-    return Math.floor(Math.random() * (max - min) + min);
+    return Math.floor(Math.random() * (max - min + 1) + min);
   },
   /**
    * @param chance The likelyhood of the function to return true.
