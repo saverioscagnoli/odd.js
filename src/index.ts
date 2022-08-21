@@ -249,7 +249,7 @@ export const odd = {
    * @returns A random element from the given array.
    */
   pick: (array: any[]): any => {
-    return array[odd.rng(0, array.length)];
+    return array[odd.rng(0, array.length - 1)];
   },
   /**
    * @param array Any array.
