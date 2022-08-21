@@ -1,0 +1,33 @@
+{
+  "name": "odd.js",
+  "version": "1.0.0",
+  "description": "A library that helps you genereate random data and lend you a hand with some util functions.",
+  "main": "lib/index",
+  "typings": "lib/index",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/index.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saverioscagnoli/odd.js.git"
+  },
+  "keywords": [
+    "random",
+    "utils",
+    "array"
+  ],
+  "author": "saverioscagnoli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saverioscagnoli/odd.js/issues"
+  },
+  "homepage": "https://github.com/saverioscagnoli/odd.js#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.7",
+    "jest": "^28.1.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
